@@ -1,7 +1,9 @@
 import Head from 'next/head';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
+
 import Layout from '../components/Layout';
+import Hero from '../components/Hero';
 
 export const getStaticProps = async ({ locale }) => {
   return {
@@ -20,11 +22,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <video autoPlay loop muted className="object-cover h-full w-full">
-          <source src="/video.mp4" type="video/mp4" />
-        </video>
+        <Hero />
       </Layout>
-      {t(`test`)}
     </div>
   );
 }
