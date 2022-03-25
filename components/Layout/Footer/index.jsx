@@ -2,14 +2,16 @@ import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
+import CorLogo from '../../CorLogo';
+
 const Footer = () => {
   return (
-    <footer className="flex flex-col space-y-16 px-2 pt-4 pb-40 w-full bg-sky-400 text-white">
+    <footer className="flex flex-col space-y-16 px-2 pt-4 pb-40 w-full bg-surface text-white-cor">
       <section className="flex flex-row justify-around items-center w-full">
         <Link href="/" passHref>
-          <button className="rounded-full bg-white text-gray-500 w-10 h-10">
-            cor
-          </button>
+          <motion.button>
+            <CorLogo />
+          </motion.button>
         </Link>
 
         <div className="flex flex-row item-rigth space-x-5 sm:space-x-16">
