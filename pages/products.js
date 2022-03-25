@@ -20,20 +20,20 @@ export default function Products() {
       <Head>
         <title>cor Chile | Products</title>
       </Head>
-      <section className="pt-24 sm:pt-32 flex flex-col w-full">
+      <section className="pt-24 sm:pt-32 w-full">
         <ProductFullView
           image={botellaVidrio}
           slogan="Única y exclusiva"
           name="Cordillera"
           description="Arte y comodidad para recibir la energía de la cordillera."
         />
-        <DoubleWave />
+        <DoubleWave className="w-full z-20" />
         <ProductFullView
           image={botellaVidrio}
           slogan="Única y divertida"
           name="Viento"
           description="Todo el poder de la cordillera para los amantes del movimiento y la salud."
-          className="bg-container pb-24 sm:pb-32 text-white-cor"
+          className="bg-container pb-24 sm:pb-32 text-white-cor z-10 -mt-1"
         />
       </section>
     </Layout>
