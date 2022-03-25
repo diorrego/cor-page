@@ -6,7 +6,7 @@ import CorLogo from '../../CorLogo';
 
 const NavBar = () => {
   return (
-    <nav className="fixed inset-x-0 top-0 flex flex-row justify-around px-2 sm:justify-around items-center w-screen bg-surface bg-opacity-60 text-white-cor z-50 py-4">
+    <nav className="fixed inset-x-0 top-0 flex flex-row justify-between px-8 sm:justify-around items-baseline w-screen bg-surface bg-opacity-60 text-white-cor z-50 py-4">
       <Link href="/" passHref>
         <motion.button>
           <CorLogo />
