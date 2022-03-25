@@ -34,13 +34,13 @@ body {
 }
 
 .title {
-  @apply text-3xl font-bold;
+  @apply text-2xl sm:text-3xl font-bold;
 }
 
 .subtitle {
-  @apply text-xl font-semibold;
+  @apply text-lg sm:text-xl font-semibold;
 }
 
 .description {
-  @apply text-lg font-medium;
+  @apply text-base sm:text-lg font-medium;
 }
