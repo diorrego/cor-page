@@ -10,7 +10,7 @@ body {
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-  @apply w-2;
+  @apply bg-white-cor w-2;
 }
 
 ::-webkit-scrollbar-track {
@@ -18,11 +18,11 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-primary rounded;
+  @apply bg-surface rounded;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-primary-variant rounded;
+  @apply bg-container rounded;
 }
 
 /* Scrollbar styling for firefox */
