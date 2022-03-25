@@ -8,7 +8,7 @@ import CorLogo from '../../CorLogo';
 const Footer = () => {
   return (
     <footer className="flex flex-col space-y-16 px-8 sm:px-0 pt-8 pb-40 w-full bg-surface text-white-cor">
-      <section className="flex flex-row justify-between sm:px-96 items-baseline w-full">
+      <section className="flex flex-row justify-around items-baseline w-full">
         <Link href="/" passHref>
           <motion.button>
             <CorLogo />
@@ -23,7 +23,7 @@ const Footer = () => {
           </Link>
         </div>
       </section>
-      <section className="flex flex-row justify-between items-center w-full sm:px-96">
+      <section className="flex flex-row justify-around items-center w-full">
         <div>agua@corchile.com</div>
         <div className="flex flex-row space-x-2 text-3xl items-center">
           <motion.button>
