@@ -1,21 +1,26 @@
 import React from 'react';
 import Image from 'next/image';
 
+import CorLogo from '../CorLogo';
+
 import cordillera from '../../public/cordillera.jpg';
 
 const Present = () => {
+  const opacityBackgroundImage = {
+    opacity: 50,
+  };
+
   return (
     <section className="relative overflow-y-hidden sm:h-96">
       <Image src={cordillera} alt="Nevados de Chillán" layout="responsive" />
-      <div className="absolute flex flex-col items-start inset-3.5 xl:inset-20 xl:left-96 space-y-2 max-w-md text-white">
-        <h1 className="text-3xl">
-          Un <span className="font-semibold">Regalo</span> de la naturaleza
-        </h1>
-        <p className="text-md">
-          Cor es extraída y producida en un paraje virgen e inmaculado posado en
-          la falda de la joven Cordillera de los Andes.
+      <div className="absolute flex flex-col justify-center items-start left-8 top-3.5 xl:inset-20 xl:left-96 space-y-2 max-w-xs sm:max-w-md bg-white-cor/60 px-4 rounded-lg">
+        <h1 className="title">Un regalo de la naturaleza</h1>
+        <p className="description">
+          <CorLogo className="inline" /> es extraída y producida en un paraje
+          virgen e inmaculado posado en la falda de la joven Cordillera de los
+          Andes.
         </p>
-        <h2 className="font-medium">Atacalco | Región del Ñuble | Chile</h2>
+        <h2 className="font-semibold">Atacalco | Región del Ñuble | Chile</h2>
       </div>
     </section>
   );
