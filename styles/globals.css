@@ -1,3 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;600;700&family=Signika:wght@300&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-background text-gray-800 text-base font-sans font-light;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  @apply bg-white-cor w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent rounded my-1;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-surface rounded;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-container rounded;
+}
+
+/* Scrollbar styling for firefox */
+@supports (scrollbar-color: rgba(55, 65, 81, 100) transparent) {
+  * {
+    scrollbar-color: rgba(55, 65, 81, 100) transparent;
+    scrollbar-width: thin;
+  }
+}
+
+.title {
+  @apply text-2xl sm:text-3xl font-bold;
+}
+
+.subtitle {
+  @apply text-lg sm:text-xl font-semibold;
+}
+
+.description {
+  @apply text-base sm:text-lg font-medium;
+}
