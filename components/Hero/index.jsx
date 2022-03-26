@@ -1,7 +1,13 @@
 import React from 'react';
 
+import useBreakpoint from '../../hooks/useBreakpoint';
+
 const Hero = () => {
-  return (
+  const isMobile = !useBreakpoint('sm');
+
+  return isMobile ? (
+    <section className="bg-background h-screen w-full"></section>
+  ) : (
     <section>
       <video
         autoPlay
