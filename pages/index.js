@@ -25,7 +25,7 @@ export default function Home() {
       <Head>
         <title>cor Chile</title>
       </Head>
-      <div className="absolute top-32 md:top-40 lg:top-44 xl:top-50 xl:left-28 w-5/12">
+      <div className="hidden sm:block sm:absolute top-32 md:top-40 lg:top-44 xl:top-50 xl:left-28 w-5/12">
         <Image src={botella} alt="Cordillera" layout="responsive" />
         <div></div>
       </div>
