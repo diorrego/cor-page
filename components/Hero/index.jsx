@@ -7,7 +7,7 @@ const Hero = () => {
         autoPlay
         loop
         muted
-        className="object-cover overflow-hidden h-screen sm:h-full w-full"
+        className="object-cover overflow-hidden max-h-[54rem] w-full"
       >
         <source src="/video.mp4" type="video/mp4" />
       </video>
