@@ -36,10 +36,11 @@ const NavBar = () => {
       w-screen
       z-50
       py-4
+      text-white-cor
       ${
         scrolled
-          ? 'bg-surface/60 text-white-cor animation-spin'
-          : 'bg-transparent subtitle text-surface animation-apacity'
+          ? 'bg-surface/60 animation-spin'
+          : 'bg-transparent subtitle animation-spin'
       }    
       `,
   };
