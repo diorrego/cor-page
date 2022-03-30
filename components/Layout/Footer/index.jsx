@@ -7,7 +7,7 @@ import CorLogo from '../../CorLogo';
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col space-y-16 px-8 sm:px-0 pt-8 pb-40 w-full bg-surface text-white-cor">
+    <footer className="flex flex-col space-y-16 px-8 sm:px-0 pt-8 pb-40 w-full bg-background text-white-cor">
       <section className="flex flex-row justify-around items-baseline w-full">
         <Link href="/" passHref>
           <motion.button>
