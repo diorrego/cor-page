@@ -1,27 +1,28 @@
 import React from 'react';
 
 import ProductSimpleView from '../products/ProductSimpleView';
+import TreePeaks from '../peaks/TreePeaks';
 
 import botellaVidrio from '../../public/botellaVidrio.jpeg';
 
 const Unique = () => {
   return (
-    <section className="flex flex-col space-y-4 xl:space-y-12 px-8 py-4 sm:py-36 bg-gradient-to-b to-white-cor from-background z-20 -mt-16">
-      <div className="sm:flex sm:flex-row sm:justify-around">
-        <h1 className="title">Única para tu estilo</h1>
-        <div></div>
-      </div>
-      <div></div>
-      <div className="sm:flex sm:flex-row sm:justify-evenly">
-        <ProductSimpleView
-          slogan="Única y exclusiva"
-          image={botellaVidrio}
-          name="Cordillera"
-        />
+    <section className="flex flex-col pb-28">
+      <div className="flex-col space-y-16 bg-gradient-to-b to-white-cor from-background py-64 px-auto">
+        <h1 className="title pl-96 ">Muévete con estilo</h1>
         <ProductSimpleView
           slogan="Única y divertida"
           image={botellaVidrio}
           name="Viento"
+        />
+      </div>
+      <TreePeaks className="z-20 -mt-28" />
+      <div className="flex-col space-y-16 bg-surface py-64 px-auto text-white-cor">
+        <h1 className="title pl-96  ">Siente la cordillera</h1>
+        <ProductSimpleView
+          slogan="Única y exclusiva"
+          image={botellaVidrio}
+          name="Cordillera"
         />
       </div>
     </section>
