@@ -7,22 +7,24 @@ import botellaVidrio from '../../public/botellaVidrio.jpeg';
 
 const Unique = () => {
   return (
-    <section className="flex flex-col bg-surface pb-28">
-      <div className=" bg-gradient-to-b to-white-cor from-background pt-28 pb-32">
-        <h1 className="title">Muévete con estilo</h1>
+    <section className="flex flex-col pb-28">
+      <div className="flex-col space-y-16 bg-gradient-to-b to-white-cor from-background py-64 px-auto">
+        <h1 className="title pl-96 ">Muévete con estilo</h1>
         <ProductSimpleView
           slogan="Única y divertida"
           image={botellaVidrio}
           name="Viento"
         />
       </div>
-
-      <TreePeaks className="z-20 -mt-36" />
-      <ProductSimpleView
-        slogan="Única y exclusiva"
-        image={botellaVidrio}
-        name="Cordillera"
-      />
+      <TreePeaks className="z-20 -mt-28" />
+      <div className="flex-col space-y-16 bg-surface py-64 px-auto text-white-cor">
+        <h1 className="title pl-96  ">Siente la cordillera</h1>
+        <ProductSimpleView
+          slogan="Única y exclusiva"
+          image={botellaVidrio}
+          name="Cordillera"
+        />
+      </div>
     </section>
   );
 };
