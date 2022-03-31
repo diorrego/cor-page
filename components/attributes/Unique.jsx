@@ -7,7 +7,7 @@ import botellaVidrio from '../../public/botellaVidrio.jpeg';
 
 const Unique = () => {
   return (
-    <section className="flex flex-col pb-28">
+    <section className="flex flex-col">
       <div className="flex-col space-y-16 bg-gradient-to-b to-white-cor from-background py-64 px-auto">
         <h1 className="title pl-96 ">Muévete con estilo</h1>
         <ProductSimpleView
