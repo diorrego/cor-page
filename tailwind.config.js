@@ -11,7 +11,7 @@ module.exports = {
         background: '#0B3B59',
         surface: '#4A5159',
         container: '#C7CFD9',
-        input: '#4C5938',
+        input: '#8F9DA6',
         primary: '#6BB3F2',
         'primary-variant': '#80C7F2',
         accent: '#CFD984',
