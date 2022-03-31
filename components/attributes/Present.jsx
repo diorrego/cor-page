@@ -7,7 +7,7 @@ const Present = () => {
   return (
     <section className="relative overflow-y-hidden ">
       <Image src={corView} alt="Vista Cordillera" layout="responsive" />
-      <div className="absolute flex flex-col justify-center items-start space-y-2 bg-white-cor/60 rounded-lg px-12 inset-96">
+      <div className="absolute flex flex-col justify-center space-y-2 bg-white-cor/60 rounded-lg p-auto inset-96 text-center">
         <h1 className="title">Un regalo de la naturaleza</h1>
         <p className="description hidden sm:block">
           Cor es extraída y producida en un paraje virgen e inmaculado posado en
