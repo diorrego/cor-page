@@ -39,7 +39,7 @@ const NavBar = () => {
       text-white-cor
       ${
         scrolled
-          ? 'bg-surface/60 animation-spin'
+          ? 'bg-input/60 animation-spin'
           : 'bg-transparent subtitle animation-spin'
       }    
       `,

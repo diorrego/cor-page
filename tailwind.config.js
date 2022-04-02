@@ -8,16 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: '#FFFCE6',
-        surface: '#0B2740',
-        container: '#1C66A6',
-        input: '#4C5938',
+        background: '#0B3B59',
+        surface: '#4A5159',
+        container: '#C7CFD9',
+        input: '#8F9DA6',
         primary: '#6BB3F2',
         'primary-variant': '#80C7F2',
-        accent: '#D9CB04',
-        secondary: '#A8BF54',
-        'secondary-variant': '#CFD984',
-        'white-cor': '#FEEFE7',
+        accent: '#CFD984',
+        secondary: '#9399A2',
+        'secondary-variant': '#E4E9F2',
+        'white-cor': '#FFFCE6',
       },
     },
     fontFamily: {
